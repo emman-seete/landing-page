@@ -23,6 +23,11 @@ a {
 .header,
 .hero {
     background-color: #1F2937;
+}
+
+.header,
+.hero,
+.info {
     display: flex;
     justify-content: center;
 }
@@ -32,6 +37,9 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header .container {
     padding: 24px 0;
 }
 
@@ -52,7 +60,8 @@ a {
 }
 
 .hero .container {
-    gap: 32px;
+    padding: 48px 0;
+    gap: 48px;
 }
 
 .hero h1 {
@@ -72,11 +81,43 @@ a {
     display: inline-block;
     background-color: #3882F6;
     color: #ffffff;
-    border-radius: 8px;
+    border-radius: 12px;
     padding: 8px 32px;
 }
 
 .hero img {
-    border-radius: 8px;
+    border-radius: 12px;
     width: 600px;
+}
+
+.info .container {
+    padding: 48px 0;
+    text-align: center;
+}
+
+.info h1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.info .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.info .card {
+    flex-shrink: 0;
+    width: 180px;
+}
+
+.info img {
+    max-width: 180px;
+    border-radius: 12px;
+}
+
+.info p {
+    color: #6d6d6d;
 }
