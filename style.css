@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-h1, p {
+h1, h2, p {
     margin: 0;
     padding: 0;
 }
@@ -20,21 +20,16 @@ a {
     max-width: 1000px;
 }
 
-.header,
-.hero {
+.header, .hero {
     background-color: #1F2937;
 }
 
-.header,
-.hero,
-.info,
-.quote {
+.header, .hero, .info, .quote, .call-to-action {
     display: flex;
     justify-content: center;
 }
 
-.header .container,
-.hero .container {
+.header .container, .hero .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +78,7 @@ a {
     background-color: #3882F6;
     color: #ffffff;
     border-radius: 12px;
-    padding: 8px 32px;
+    padding: 6px 36px;
 }
 
 .hero img {
@@ -145,4 +140,27 @@ a {
     font-size: 24px;
     font-weight: 900;
     text-align: right;
+}
+
+.call-to-action .container {
+    padding: 96px 0;
+}
+
+.call-to-action .card {
+    background-color: #3882F6;
+    border-radius: 12px;
+    padding: 48px 120px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action a {
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    border-radius: 12px;
+    padding: 6px 36px;
 }
