@@ -20,7 +20,7 @@ a {
     max-width: 1000px;
 }
 
-.header, .hero {
+.header, .hero, .footer {
     background-color: #1F2937;
 }
 
@@ -115,7 +115,7 @@ a {
 }
 
 .info p {
-    color: #6d6d6d;
+    color: #1F2937;
 }
 
 .quote {
@@ -150,17 +150,24 @@ a {
     background-color: #3882F6;
     border-radius: 12px;
     padding: 48px 120px;
-    color: #ffffff;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .call-to-action a {
-    color: #ffffff;
+    color: #F9FAF8;
     background-color: transparent;
-    border: 2px solid #ffffff;
+    border: 2px solid #F9FAF8;
     font-size: 18px;
     border-radius: 12px;
     padding: 6px 36px;
+}
+
+.footer {
+    text-align: center;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 48px 0;
 }
